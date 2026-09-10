@@ -1,0 +1,10 @@
+id,kind,x_m,y_m,height_m,notes
+B1,beacon,33.4,28.0,8,open_fraction=0.839
+B2,beacon,44.5,56.4,8,open_fraction=0.834
+B3,beacon,70.0,31.6,0,open_fraction=1.0
+B4,beacon,95.5,6.9,8,open_fraction=0.841
+B5,beacon,106.6,35.3,8,open_fraction=0.822
+team A,spawn,5.9,31.7,16,8 pads
+team B,spawn,134.1,31.6,16,8 pads
+gate1,gate,68.6,18.3,0,slot 3.9x2.0 m
+gate2,gate,71.3,45.1,0,slot 3.8x1.9 m

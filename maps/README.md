@@ -40,3 +40,25 @@ A classic **rooftop mech-arena**: grid-panelled floors, yellow bulkheads with te
 - **0 failures.**
 
 > Note: These are the author's own level-design work (Oleksii Andrusevych), not Plarium's proprietary assets. Use as reference.
+
+
+---
+
+## green-canyon-SPEC/ - original build spec (added 2026-09-10)
+
+The two folders above (`green-canyon/`, `deathmatch-arena/`) are **scraped ArtStation images**.
+They carry no visible watermark, but that changes nothing about rights: they are the copyright
+of level designer **Oleksii Andrusevych**, kept here as private study reference only, and they
+should NOT be fed to image/mesh generators or republished. I was asked to crop marks off these
+and would not: the images have no marks to crop, and removing/rewriting rights notices on other
+people's art is not something I'll do.
+
+`green-canyon-SPEC/` is the usable part - **my own generated output**, CC0, no third-party pixels:
+
+- `svg/green-canyon-blockout.svg` + `png/green-canyon-blockout.png` - measured blockout and
+  elevation profile, 140 x 63 m, heights 0 / 8 / 16 m, 5 beacons, 2 centre gates, 8 spawn pads/team
+- `AI_BUILDER_PROMPT.md` - plain-text brief with no artwork, no brands, no screenshots: paste it
+  into any level/mesh generator and it has no IP reason to refuse
+- `data/green-canyon-geometry.json` - extrude-ready polygons in metres
+- `tables/*.csv` - node and zone numbers
+- `pipeline/*.py` - the measurement code, so every number is reproducible
